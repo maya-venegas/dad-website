@@ -60,14 +60,17 @@ display: flex;
 margin-bottom: 10px;
 display: flex;
 flex-direction: column;
-justify-content: flex-end;
+justify-content: center;
+width: 100%;
 }
 
 .site-title a {
+display: flex;
+flex-direction: row;
+justify-content: center;
 font-family: "Roboto-Slab";
 font-size: 80px;
 color: white;
-margin-left: 15px;
 font-weight: 100; /* Can't get the site to render any font-weight less than 500 for this font*/
 }
 
