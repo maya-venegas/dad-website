@@ -1,8 +1,7 @@
 /*
- * Write your client-side JS code in this file.  Don't forget to include your
- * name and @oregonstate.edu email address below.
+ * Client-side JS code.
  *
- * Name: Maya Venegas
+ * Authored by: Maya Venegas
  * Email: venegama@oregonstate.edu
  */
 
