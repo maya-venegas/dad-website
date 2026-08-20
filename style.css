@@ -1,0 +1,164 @@
+/*
+ * name: Maya Venegas
+ * email: venegama@oregonstate.edu
+ */
+
+/*General Properties */
+html {
+font-family: "Roboto";
+font-weight: 400;
+}
+
+body {
+margin: 0px;
+}
+
+/*Specific Element Properties */
+header {
+background-color: #000000;
+display: flex;
+}
+
+aside {
+background-color: #efefef;
+padding: 20px;
+margin: 10px;
+width: 200px;
+height: fit-content;
+padding-top: 5px;
+border-radius: 3px;
+}
+
+section {
+display: flex;
+flex-wrap: wrap;  
+gap: 20px;  
+}
+
+img {
+width: 300px;
+border-radius: 2px;
+}
+
+a {
+color: #f78235;
+text-decoration: none;  
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+/*Class Properties */
+.content {
+display: flex;
+}
+
+.site-title {
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.site-title a {
+font-family: "Roboto-Slab";
+font-size: 80px;
+color: white;
+margin-left: 15px;
+font-weight: 100; /* Can't get the site to render any font-weight less than 500 for this font*/
+}
+
+.header-image-container img {
+width: 150px;
+}
+
+.post {
+flex-basis: 100px;
+flex-shrink: 0;
+border-radius: 3px;
+padding: 10px;
+margin: 10px;
+border: 1px solid #dfdfdf;
+}
+
+.post-price {
+background-color: #efefef;
+padding: 2px;
+border-radius: 3px;
+border: 1px solid #b1b1b1;
+font-size: 12px;
+}
+
+.post-info-container {
+margin-top: 20px;
+}
+
+.filter-input {
+border: 1px solid #e0e0e0;
+border-radius: 2px;
+width: 60px;
+}
+
+.filter-input-container {
+display: flex;
+margin: 15px 10px;
+margin-left: 0;
+}
+
+.filter-input-element {
+margin-left: 10px;
+}
+
+/*ID Properties */
+#filter-text {
+width: 142px;
+}
+
+#filter-city {
+width: 150px;
+}
+
+#filter-condition {
+width: 200px;
+}
+
+#sell-something-button {
+padding: 5px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+font-size: 30px;
+background-color: #f67811;
+color: #ffffff;
+border: 0;
+margin: 20px;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+
+#sell-something-button:hover {
+transform: scale(1.2);
+cursor: pointer;
+}
+
+#filter-update-button {
+background-color: black;
+padding: 10px;
+border-radius: 5px;
+color: #feffe7;
+width: 190px;
+font-weight: 200; /* Font-weight will not update here either*/
+font-size: 20px;
+margin-top: 10px;
+padding-top: 12px;
+}
+
+#filter-update-button:hover{
+background-color: #f3d0b5;
+border-width: 1px;
+color: black;
+font-weight: 100; /* Font-weight will not update here either*/
+}
